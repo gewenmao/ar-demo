@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, user-scalable=no" />
+    <script type="text/javascript">
+      (function() {
+          var scale = 1.0;
+          var ratio = 1;
+          if (window.devicePixelRatio >= 2) {
+              scale *= 0.5;
+              ratio *= 2;
+          }
+          var text = '<meta name="viewport" content="initial-scale=' + scale + ', maximum-scale=' + scale +', minimum-scale=' + scale + ', width=device-width, user-scalable=no" />';
+          document.write(text);
+          document.documentElement.style.fontSize = 50*ratio + "px";
+      })();
+    </script>
+    <script type="text/javascript" src='../js/public/three.js'></script>
+    <script type="text/javascript" src="../js/public/ar.js"></script>
+    <script type="text/javascript" src="../js/public/zepto.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/public/iconfont/iconfont.css" >
+    <link rel="stylesheet" type="text/css" href="../css/page/index.css">
+  </head>
+  <body>
+    <!-- <div class="bottom-bar"> -->
+    <div class="photograph-btn"><i class="icon iconfont icon-photograph"></i></div>
+    <!--   </div> -->
+    <script type="text/javascript" src="../js/page/index.js"></script>
+  </body>
+</html>
