@@ -53,14 +53,14 @@ html, body {
   left: 50%;
   position: absolute;
   z-index: 9999;
-  font-size: .48rem;
-  transform: translate(0, 160px);
+  font-size: .72rem;
+  transform: translate(0, 1rem);
 }
 .photograph-box .icon-close {
-  left: 56%;
+  left: 70%;
   color: red;
 }
 .photograph-box .icon-ok {
-  left: 44%;
+  left: 30%;
   color: green;
 }
