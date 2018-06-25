@@ -72,7 +72,7 @@
   // create atToolkitContext
   var arToolkitContext = new THREEx.ArToolkitContext({
     // cameraParametersUrl: THREEx.ArToolkitContext.baseURL + '../data/data/camera_para.dat',
-    cameraParametersUrl: '/client/data/camera_para.dat',
+    cameraParametersUrl: '../../../data/camera_para.dat',
     detectionMode: 'mono',
   })
   // initialize it
@@ -99,7 +99,7 @@
   var markerControls = new THREEx.ArMarkerControls(arToolkitContext, camera, {
     type : 'pattern',
     // patternUrl : THREEx.ArToolkitContext.baseURL + '../data/data/patt.hiro',
-    patternUrl : '/client/data/patt.hiro',
+    patternUrl : '../../../data/patt.hiro',
     // patternUrl : THREEx.ArToolkitContext.baseURL + '../data/data/patt.kanji',
     // as we controls the camera, set changeMatrixMode: 'cameraTransformMatrix'
     changeMatrixMode: 'cameraTransformMatrix'
