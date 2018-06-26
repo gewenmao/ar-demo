@@ -3,7 +3,7 @@
 //   // github
   var baseURL = '/';
   if ( window.location.origin.indexOf('github') != -1) {
-    baseURL = '/ar-demo';
+    baseURL = '/ar-demo/';
   }
 
 
